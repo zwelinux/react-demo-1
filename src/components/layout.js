@@ -4,14 +4,17 @@ import './layout.css'
 const Layout = () => {
     return(
         <>
-            <header class="header">
-                <ul>
-                    <li class="stay"><a href="/">MyApp</a></li>
-                    <li class="hide"><a href="/">DOC</a></li>
-                    <li class="hide"><a href="/">BLOG</a></li>
-                    <li class="hide"><a href="/">ABOUT</a></li>
-                </ul>
-            </header>
+        <header class="header">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQwN18HT0LewTN9RhvDEBkNVS06jaRLHeoN3E9JVspYGj2gHl_sPbB-VCD4oXByJF4qN4&usqp=CAU" alt="logo" width="40px" height="40px"  class="logo" />
+            <span class="header-title"> EASY BLOG</span>
+            <ul>
+                <li class="stay"><a href="/">MyApp</a></li>
+                <li class="hide"><a href="/">DOC</a></li>
+                <li class="hide"><a href="/">BLOG</a></li>
+                <li class="hide"><a href="/">ABOUT</a></li>
+            </ul>
+
+        </header>
 
             <main class="main">
 
